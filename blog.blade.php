@@ -47,10 +47,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="{{ route('posts') }}">Posts</a></li>
+                <li><a href="#">Posts</a></li>
             </ul>
-            <form class="navbar-form navbar-left" action="{{ route('postsSearch') }}" method="post">
-                {{ csrf_field() }}
+            <form class="navbar-form navbar-left" action="#" method="post">
                 <div class="form-group">
                     <input type="text" class="form-control" name="search" placeholder="Search">
                 </div>
