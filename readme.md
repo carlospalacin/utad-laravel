@@ -8,6 +8,17 @@ Enlace al keynote [Ver presentación](https://docs.google.com/presentation/d/1Bp
 
 ## Pasos para instalar el proyecto-blog
 
+Antes de empezar, recordar que necesitáis:
+
+- Composer
+- PHP >= 5.6.4
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+
+
 **1 - Clonamos el proyecto con el siguinte comando en nuestro directorio de publicación en nuestro servidor web**
 ```
 git clone https://github.com/carlospalacin/utad-laravel.git
